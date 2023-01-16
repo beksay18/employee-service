@@ -1,11 +1,12 @@
 package com.beksay.emp.service;
 
+import com.beksay.emp.dto.APIResponseDto;
 import com.beksay.emp.dto.EmployeeDto;
 
 public interface EmployeeService {
 
     EmployeeDto saveEmployee(EmployeeDto employeeDto);
 
-    EmployeeDto getEmployeeById(Long employeeId);
+    APIResponseDto getEmployeeById(Long employeeId);
 
 }
